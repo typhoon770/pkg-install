@@ -12,7 +12,13 @@ import time
 
 
 os.system("clear")
-
+try:
+	git --version
+except:
+	os.system("pkg install git")
+	
+	
+os.system("clear")
 # Color codes
 b = '\033[1m'
 g = '\033[32m'
